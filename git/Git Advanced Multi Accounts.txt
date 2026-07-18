@@ -1,0 +1,40 @@
+Git Advanced - Multi Accounts
+
+For 2 Git accounts on same machine:
+
+  Setup (one-time):
+  1. Create separate SSH keys for each account:
+  ssh-keygen -t ed25519 -C "account1@email.com" -f ~/.ssh/id_ed25519_account1
+  ssh-keygen -t ed25519 -C "account2@email.com" -f ~/.ssh/id_ed25519_account2
+
+  2. Add public keys to each GitHub account:
+  cat ~/.ssh/id_ed25519_account1.pub  # Add to Account1 GitHub
+  cat ~/.ssh/id_ed25519_account2.pub  # Add to Account2 GitHub
+
+  3. Create ~/.ssh/config to route keys by host:
+  Host github-account1
+      HostName github.com
+      User git
+      IdentityFile ~/.ssh/id_ed25519_account1
+
+  Host github-account2
+      HostName github.com
+      User git
+      IdentityFile ~/.ssh/id_ed25519_account2
+
+  Per repository:
+  1. Clone using custom host:
+  git clone git@github-account1:SubhabrataDatta/repo1.git
+  git clone git@github-account2:OtherAccount/repo2.git
+
+  2. Set local git config per repo (overrides global):
+  cd repo1
+  git config user.name "Subhabrata"
+  git config user.email "subhabrata.datta2020@gmail.com"
+
+  cd ../repo2
+  git config user.name "Datta-Projects"
+  git config user.email "other@email.com"
+
+  That's it. Each repo uses its own identity for commits/push.
+
