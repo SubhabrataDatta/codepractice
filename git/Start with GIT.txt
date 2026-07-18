@@ -1,0 +1,22 @@
+
+1. Create Repo on your Github/Gitlab [Your Remote Repo]
+2. Create ssh key
+ssh-keygen -t ed25519 -C "subhabrata.datta2020@gmail.com" -f ~/.ssh/id_ed25519 -N ""
+3. Open the pub key (cat)
+4. Add the pub key contents to Github/Gitlab Profile
+5. Install Git on local (Your personal PC)
+  sudo dnf install git
+6. git configure (Name and Mail ID)
+  git config --global user.name "Your Name"
+  git config --global user.email "subhabrata.datta2020@gmail.com"
+7. git clone 
+ git clone git@github.com:SubhabrataDatta/coderepo.git
+ [Your local repo now created]
+
+
+
+
+#######
+
+FAQ:
+1. What if you have 2 keys for multiple accounts ?
