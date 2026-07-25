@@ -1,0 +1,24 @@
+00a. git add USS
+00b. git commit -m "S.Datta LenovoSlim5"
+
+1. git remote add origin git@github2020:SubhabrataDatta/zexplore.git
+2. If you made mistake in url in first command
+git remote set-url origin git@github2020:SubhabrataDatta/zexplore.git
+3. git branch -M main
+4. git push -u origin main
+
+
+=====
+
+#	Command	What it does
+
+00a	git add USS	Stages the USS folder/file — tells Git "include these changes in my next commit"
+00b	git commit -m "S.Datta LenovoSlim5"	Takes everything staged and saves it as a snapshot (commit) in your local Git history
+
+1	git remote add origin git@github2012:..   Links your local repo to the remote GitHub repo. origin is just a nickname for that URL. 
+                                                  Uses github2012 alias from your SSH config.
+
+2	git remote set-url origin git@github2020:...	Fixes the URL if you made a typo in step 1 
+
+3	git branch -M main	Renames your current branch to main (GitHub's default). The -M forces the rename even if main already exists
+4	git push -u origin main	Uploads your commits to GitHub. -u sets origin/main as the tracking branch, so future pushes just need git push
