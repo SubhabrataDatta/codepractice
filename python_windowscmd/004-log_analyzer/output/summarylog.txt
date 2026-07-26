@@ -1,0 +1,38 @@
+2026-07-25 14:02:12.377 [info] Extension host with pid 13564 started (26th July log)
+
+2026-07-25 14:02:12.377 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+
+2026-07-25 14:02:12.688 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+
+2026-07-25 14:02:12.699 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+
+2026-07-25 14:03:42.407 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+
+2026-07-25 14:03:42.532 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+
+2026-07-25 14:03:42.551 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+
+2026-07-25 14:03:51.002 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+
+2026-07-25 14:03:53.728 [error] Error: Extension 'vscode.git' is not known or not activated
+
+Log Summary Completed for input\exthost2.2026-07-26.log
+2026-07-25 14:02:12.377 [info] Extension host with pid 13564 started (26th July log)
+
+2026-07-25 14:02:12.377 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+
+2026-07-25 14:02:12.688 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+
+2026-07-25 14:02:12.699 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+
+2026-07-25 14:03:42.407 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+
+2026-07-25 14:03:42.532 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+
+2026-07-25 14:03:42.551 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+
+2026-07-25 14:03:51.002 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+
+2026-07-25 14:03:53.728 [error] Error: Extension 'vscode.git' is not known or not activated
+
+Log Summary Completed for input\exthost2.2026-07-26.log

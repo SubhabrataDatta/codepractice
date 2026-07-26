@@ -1,0 +1,68 @@
+2026-07-25 14:02:12.377 [info] Extension host with pid 13564 started (27th July log)
+2026-07-25 14:02:12.377 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-07-25 14:02:12.377 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-07-25 14:02:12.377 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-07-25 14:02:12.377 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-07-25 14:02:12.688 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-07-25 14:02:12.699 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-07-25 14:02:12.774 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-07-25 14:02:12.910 [info] Eager extensions activated
+2026-07-25 14:02:12.912 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-25 14:02:12.916 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-25 14:02:12.944 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished'
+2026-07-25 14:03:40.523 [info] Extension host terminating: renderer closed the MessagePort
+2026-07-25 14:03:40.553 [info] Extension host with pid 13564 exiting with code 0
+2026-07-25 14:03:42.370 [info] Extension host with pid 16328 started
+2026-07-25 14:03:42.370 [info] Skipping acquiring lock for c:\Users\Subhabrata Datta\AppData\Roaming\Code\User\workspaceStorage\9083131387b6dcb657c02b7b2bc39e92.
+2026-07-25 14:03:42.407 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-07-25 14:03:42.445 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-07-25 14:03:42.532 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'27thJulyID
+2026-07-25 14:03:42.551 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-07-25 14:03:42.649 [info] Eager extensions activated
+2026-07-25 14:03:42.733 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-25 14:03:42.739 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-25 14:03:42.769 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished'
+2026-07-25 14:03:51.002 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-07-25 14:03:51.182 [info] ExtensionService#_doActivateExtension Anthropic.claude-code, startup: false, activationEvent: 'onStartupFinished'
+2026-07-25 14:03:51.450 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2026-07-25 14:03:52.173 [info] ExtensionService#_doActivateExtension Zowe.vscode-extension-for-zowe, startup: false, activationEvent: '*', root cause: IBM.zopeneditor
+2026-07-25 14:03:53.058 [info] ExtensionService#_doActivateExtension IBM.zopeneditor, startup: false, activationEvent: '*'
+2026-07-25 14:03:53.728 [error] Error: Extension 'vscode.git' is not known or not activated
+	at gA.getActivatedExtension (file:///c:/Users/Subhabrata%20Datta/AppData/Local/Programs/Microsoft%20VS%20Code/b6a47e94e3/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10702)
+	at pee.getExtensionExports (file:///c:/Users/Subhabrata%20Datta/AppData/Local/Programs/Microsoft%20VS%20Code/b6a47e94e3/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11087)
+	at get exports (file:///c:/Users/Subhabrata%20Datta/AppData/Local/Programs/Microsoft%20VS%20Code/b6a47e94e3/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:24701)
+	at c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:4171046
+	at new Promise (<anonymous>)
+	at c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:4170840
+	at d (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:4163778)
+	at Generator.<anonymous> (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:4165120)
+	at Generator.next (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:4164207)
+	at i (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:4169681)
+	at s (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:4169884)
+	at c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:4169943
+	at new Promise (<anonymous>)
+	at c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:4169824
+	at 53201 (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:4171370)
+	at t (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:6328462)
+	at 65590 (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:2232156)
+	at t (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:6328462)
+	at 49146 (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:2408280)
+	at t (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:6328462)
+	at c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:6329212
+	at Object.<anonymous> (c:\Users\Subhabrata Datta\.vscode\extensions\codeium.codeium-1.48.2\dist\extension.js:2:6329243)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///c:/Users/Subhabrata%20Datta/AppData/Local/Programs/Microsoft%20VS%20Code/b6a47e94e3/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:6055)
+	at t._load (file:///c:/Users/Subhabrata%20Datta/AppData/Local/Programs/Microsoft%20VS%20Code/b6a47e94e3/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:223:22773)
+	at s._load (file:///c:/Users/Subhabrata%20Datta/AppData/Local/Programs/Microsoft%20VS%20Code/b6a47e94e3/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:215:24706)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at pee.Cb (file:///c:/Users/Subhabrata%20Datta/AppData/Local/Programs/Microsoft%20VS%20Code/b6a47e94e3/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:254:1256)
+2026-07-25 14:03:53.771 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-07-25 14:03:53.781 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-07-25 14:03:53.845 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
